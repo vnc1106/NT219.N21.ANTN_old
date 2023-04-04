@@ -1,4 +1,4 @@
-# An Enhancement of Data Security in Cloud Storage with an Implementation of  Hybrid AES-ECC algorithm
+# An Enhancement of Data Security in Third-party Storage with an Implementation of Hybrid AES-ECC algorithm
 
 # A. Overview 
 A cloud computing environment provides a cost-effective way for the end user to store and access private data over remote storage using some Internet connection. The user has access to the data anywhere and at any time.
@@ -86,15 +86,19 @@ Our proposed scheme has solved some security problem:
 
 Duty roster:
 
-| Name            | ID        |  Presentation    | Cloud storage idea   | Searching Paper | Virtualize scheme | Demo |
-|:---------------:|:---------:|:----------------:|:--------------------:|:---------------:|:-----------------:|:----:|
-| Võ Nguyên Chương| 21520011  |       X          |                      |        X        |       X           |  X   |
-| Nguyễn Hữu Dương| 21520757  |                  |           X          |                 |       X           |  X   |
+| Name              | ID        |  Presentation    | Cloud storage idea   | Searching Paper | Virtualize scheme | Demo |
+|:-----------------:|:---------:|:----------------:|:--------------------:|:---------------:|:-----------------:|:----:|
+| Võ Nguyên Chương  | 21520011  |       X          |                      |        X        |       X           |  X   |
+| Nguyễn Hữu Dương  | 21520757  |                  |           X          |                 |       X           |  X   |
 
 
 # C. Propose for Implementation
-Updating...
+Create secure chatbox (or file transformation) application (using C# or python) to demo our proposed scheme:
 
+Some provided features:
+- Secure key exchange using ECDH to create shared-key through insecure channel.
+- Encrypt data using AES algorithm (with shared-key) before transforming.
+- Signing and verifying data using ECRSA and SHA-256.
 
 # D. References
 
